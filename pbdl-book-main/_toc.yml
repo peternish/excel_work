@@ -1,0 +1,61 @@
+format: jb-book
+root: intro.md
+parts:
+- caption: Introduction
+  chapters:
+  - file: intro-teaser.ipynb
+  - file: overview.md
+    sections:
+    - file: overview-equations.md
+    - file: overview-burgers-forw.ipynb
+    - file: overview-ns-forw.ipynb
+    - file: overview-optconv.md
+  - file: supervised.md
+    sections:
+    - file: supervised-airfoils.ipynb
+    - file: supervised-discuss.md
+- caption: Physical Losses
+  chapters:
+  - file: physicalloss.md
+  - file: physicalloss-code.ipynb
+  - file: physicalloss-discuss.md
+- caption: Differentiable Physics
+  chapters:
+  - file: diffphys.md
+  - file: diffphys-code-burgers.ipynb
+  - file: diffphys-dpvspinn.md
+  - file: diffphys-code-ns.ipynb
+- caption: Differentiable Physics with NNs
+  chapters:
+  - file: diffphys-examples.md
+  - file: diffphys-code-sol.ipynb
+  - file: diffphys-code-control.ipynb
+  - file: diffphys-discuss.md
+- caption: Reinforcement Learning
+  chapters:
+  - file: reinflearn-intro.md
+  - file: reinflearn-code.ipynb
+- caption: Improved Gradients
+  chapters:
+  - file: physgrad.md
+  - file: physgrad-comparison.ipynb
+  - file: physgrad-nn.md
+  - file: physgrad-code.ipynb
+  - file: physgrad-hig.md
+  - file: physgrad-hig-code.ipynb
+  - file: physgrad-discuss.md
+- caption: PBDL and Uncertainty
+  chapters:
+  - file: bayesian-intro.md
+  - file: bayesian-code.ipynb
+- caption: Fast Forward Topics
+  chapters:
+  - file: others-intro.md
+  - file: others-timeseries.md
+  - file: others-GANs.md
+  - file: others-lagrangian.md
+- caption: End Matter
+  chapters:
+  - file: outlook.md
+  - file: references.md
+  - file: notation.md
